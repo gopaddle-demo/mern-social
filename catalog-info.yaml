@@ -8,7 +8,7 @@ metadata:
   annotations:
    demo/app: mern-social
    backstage.io/techdocs-ref: dir:docs
-   'jenkins.io/job-full-name': 'mern-social'
+   jenkins.io/job-full-name: mern-social
   tags:
     - nodejs
   links:
