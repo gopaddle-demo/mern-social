@@ -8,3 +8,7 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
+links:
+    - url: https://subscription.packtpub.com/book/full-stack-web-development/9781788835534/5/ch05lvl1sec30/mern-social
+      title: MERN Social
+      icon: dashboard
