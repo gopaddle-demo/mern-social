@@ -21,4 +21,4 @@ spec:
   owner: guests
   system: public
   dependsOn:
-    - resource:api/backstage-api
+    - component:default/example-website
