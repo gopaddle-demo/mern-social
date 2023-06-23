@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: component
+kind: Component
 metadata:
   name: mern-social
   description: MERN Social is a social media application with rudimentary features inspired by existing social media platforms such as Facebook and Twitter. The main purpose of this application is to demonstrate how to use the MERN stack technologies to implement features that allow users to connect and interact over content.
@@ -8,6 +8,7 @@ metadata:
   annotations:
    demo/app: mern-social
    backstage.io/techdocs-ref: dir:.
+   jenkins.io/job-full-name: mern-social
   tags:
     - nodejs
   links:
@@ -20,3 +21,5 @@ spec:
   lifecycle: production
   owner: guests
   system: public
+  dependsOn:
+    - component:default/example-website
