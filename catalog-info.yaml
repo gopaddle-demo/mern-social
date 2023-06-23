@@ -20,4 +20,5 @@ spec:
   lifecycle: production
   owner: guests
   system: public
-  consumesApis: api:backstage-api
+  dependsOn:
+    - resource:api/backstage-api
