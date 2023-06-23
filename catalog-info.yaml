@@ -19,4 +19,8 @@ spec:
   type: website
   lifecycle: production
   owner: guests
-  system: public-websites
+  system: public-
+  dependsOn:
+    - resource:default/mongodb
+  providesApis:
+    - mernsocial-apis
