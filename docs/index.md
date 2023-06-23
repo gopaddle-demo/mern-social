@@ -1,4 +1,4 @@
-# MERN Social Application
+# MERN Social Application 
 
 This application is a MERN-based social networking application, providing users a way to connect with friends and family, post their own content, interact with members of the community, etc. 
 
