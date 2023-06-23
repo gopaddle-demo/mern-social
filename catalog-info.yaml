@@ -21,4 +21,4 @@ spec:
   owner: guests
   system: public
   dependsOn:
-    - Component: example-website
+    - Component: "default/example-website"
