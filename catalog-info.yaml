@@ -2,9 +2,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: mern-social
+  description: MERN Social is a social media application with rudimentary features inspired by existing social media platforms such as Facebook and Twitter. The main purpose of this application is to demonstrate how to use the MERN stack technologies to implement features that allow users to connect and interact over content.You can extend these implementations further, as desired, for more complex features:
+  labels:
+    demo/app: mern-social
   annotations:
-    github.com/project-slug: gopaddle-demo/mern-social
+   demo/app: mern-social
+  tags:
+    - nodejs
+  links:
+    - url: https://subscription.packtpub.com/book/full-stack-web-development/9781788835534/5/ch05lvl1sec30/mern-social
+      title: Packt Link
+      icon: dashboard
+      type: admin-dashboard
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: production
   owner: guests
+  system: public-websites
